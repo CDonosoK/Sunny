@@ -1,0 +1,71 @@
+Sunny-ROS_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  HDD_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: HDD
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  HID_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: HID
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  HDT_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: HDT
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  HIT_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: HIT
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  PSDD_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: PSDD
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  PSDT_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: PSDT
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  PSID_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: PSID
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  PSIT_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: PSIT
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev43_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev43
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev44_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev44
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev45_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev45
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  Rev46_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: Rev46
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  PDID_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: PDID
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  PDIT_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: PDIT
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  PIID_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: PIID
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  PIIT_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: PIIT
+    pid: {p: 100.0, i: 0.01, d: 10.0}
