@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find Sunny-ROS_description)/launch/controller.yaml" command="load"/>
+<node args="HDD_position_controller HID_position_controller HDT_position_controller HIT_position_controller PSDD_position_controller PSDT_position_controller PSID_position_controller PSIT_position_controller Rev43_position_controller Rev44_position_controller Rev45_position_controller Rev46_position_controller PDID_position_controller PDIT_position_controller PIID_position_controller PIIT_position_controller joint_state_controller " name="controller_spawner" ns="Sunny-ROS" output="screen" pkg="controller_manager" respawn="false" type="spawner"/>
+<node name="robot_state_publisher" output="screen" pkg="robot_state_publisher" respawn="false" type="robot_state_publisher">
+  <remap from="/joint_states" to="/Sunny-ROS/joint_states"/>
+</node>
+
+</launch>
