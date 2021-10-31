@@ -2,6 +2,11 @@
 Sunny's project, a robotic dog with Aritifial intelligence based on SpotMicro and NovaSM3
 Made by Clemente Donoso, 📍 Chile 🇨🇱
 
+![alt text](https://github.com/CDonosoK/Sunny/blob/main/Images/Sunny%201.png?raw=true)
+![alt text](https://github.com/CDonosoK/Sunny/blob/main/Images/Sunny%202.png?raw=true)
+![alt text](https://github.com/CDonosoK/Sunny/blob/main/Images/Sunny%203.png?raw=true)
+![alt text](https://github.com/CDonosoK/Sunny/blob/main/Images/Sunny%204.png?raw=true)
+
 ## Introduction:
 
 ## About the project ✏️:
