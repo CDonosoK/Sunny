@@ -19,6 +19,8 @@ Made by Clemente Donoso, 📍 Chile 🇨🇱
 ## Wireing:
 
 ## Last Update:
+09/11/2021 - PyBullet model it's done.
+
 31/10/2021 - The first 3D model it's finish
 
 ## Shopping list:
