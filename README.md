@@ -15,12 +15,13 @@ Made by Clemente Donoso, 📍 Chile 🇨🇱
 With the intention of investigating robotics, new technologies and high-gamma sensors, the Sunny project is created. The project seeks to create an intelligent quadruped robot with a high variety of functions, such as recognition of people and faces, autonomous mapping and navigation, assistance, security and more.
 
 ## Last Update:
-- 12/11/2021 - Depth Camera added to the model
+- 13/11/2021 - First training model it's created.
+- 12/11/2021 - Depth Camera added to the model.
 - 09/11/2021 - PyBullet model it's done.
-- 31/10/2021 - The first 3D model it's finish
+- 31/10/2021 - The first 3D model it's finish.
 
 ## Shopping list:
-*Coming soon, shopping list in excel format (Amazon and Aliexpress)*
+*Coming soon, shopping list in excel (Only for Aliexpress)*
 - Jetson Nano B01
 - 12 Servo Motors 25Kg
 - 11.1V 5200 mAh Battery 
