@@ -25,7 +25,7 @@ With the intention of investigating robotics, new technologies and high-gamma se
 - 12 Servo Motors 25Kg
 - 11.1V 5200 mAh Battery 
 - PCA9685
-- IMU6050
+- MPU 6050
 - LM2596
 - DC 3W 2A voltage regulator
 - 8 Bearing 626Z
