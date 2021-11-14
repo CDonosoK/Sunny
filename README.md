@@ -21,7 +21,8 @@ With the intention of investigating robotics, new technologies and high-gamma se
 - 31/10/2021 - The first 3D model it's finish.
 
 ## Shopping list:
-*Coming soon, shopping list in excel (Only for Aliexpress)*
+[![](https://img.shields.io/badge/-Shopping%20List-blue)](https://docs.google.com/spreadsheets/d/1eEKEpA54M8hU1XgBFfxtGZXhuTOngMLE82fiXoBK8Ao/edit?usp=sharing)
+
 - Jetson Nano B01
 - 12 Servo Motors 25Kg
 - 11.1V 5200 mAh Battery 
