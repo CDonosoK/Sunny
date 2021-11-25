@@ -15,3 +15,4 @@ for i in range (10000):
 cubePos, cubeOrn = p.getBasePositionAndOrientation(boxId)
 print(cubePos,cubeOrn)
 p.disconnect()
+
